@@ -75,7 +75,6 @@ After running our linear regression model with only 10 highest f_score features,
 ![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/keytakeaways.jpg)
 
 
-# Key Takeaways: 
 
 ## 1. As expected, the hour of the day matters even on a eight month span. Electricity consumption is maximum at 6pm in the evening. Whereas the mean hourly electricity consumption dips to a minimum at 3 am. So this should inform at what time most generators come on and off the grid. This should inform the hourly forecast of the retail distributors. 
 
