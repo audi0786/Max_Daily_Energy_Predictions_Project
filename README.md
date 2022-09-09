@@ -117,10 +117,10 @@ For additional info, please contact Udhai P Singh at singhudhai16@gmail.com
 ## Repository Structure
 
 .
-├── .ipynb_checkpoints      # checkpoints (alternatively `dist`)
-├── images                  # Images used in notebook and README (alternatively `doc`)
-├── data                    # Source data (alternatively `lib` or `app`)
-├── Daily_Energy_Demand_Prediction_via_Regression_Analysis.ipynb   #Jupyter notebook containing the analysis      
+├── .ipynb_checkpoints      # checkpoints
+├── images                  # Images used in notebook and README.md
+├── data                    # Source data
+├── Daily_Energy_Demand_Prediction_via_Regression_Analysis.ipynb    
 ├── Notebook.pdf            # PDF copy of the notebook
 ├── README.md
 
