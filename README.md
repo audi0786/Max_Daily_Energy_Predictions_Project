@@ -80,11 +80,13 @@ After running our linear regression model with only 10 highest f_score features,
 ## 1. As expected, the hour of the day matters even on a eight month span. Electricity consumption is maximum at 6pm in the evening. Whereas the mean hourly electricity consumption dips to a minimum at 3 am. So this should inform at what time most generators come on and off the grid. This should inform the hourly forecast of the retail distributors. 
 
 
-
+![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/hourly_forecast.png)
 
 
 
 ## 2. Lineplot demonstrates weekdays consume more Max energy than weekends for all months except January. This is due to abnormally huge demand on 11.01.2021 and 25.01.2021.  While the spike on 25.01.21 is explainable as it is part of the long weekend ago and maybe associate with Australia day celebrations. On the other hand, the spike on 11.04.22 seems like an abberation. Hence, our stakeholders needs to be prepared for these anamolies. 
+
+![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/day_Vs_month_relationship.png)
 
 
 ### Another anamoly in data is that weekend mean-max consumption dips in February whereas for weekdays it dips in March
@@ -96,9 +98,7 @@ After running our linear regression model with only 10 highest f_score features,
 ## 3. For our stakeholders - July seems to be a critical period at the max consumption for both weekdays and weekends peaks together, hence the max capacity and the base load for July will increase substantially as compared to other months
 
 
-
-
-
+![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/dayvsmonth2.png)
 
 
 
