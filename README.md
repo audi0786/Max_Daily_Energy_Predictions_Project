@@ -104,7 +104,10 @@ After running our linear regression model with only 10 highest f_score features,
 ## 4. Our final model with scaled, polynomials and interaction features is performing well and is able to explain 0.47 of variations in unseen/test data. 
 
 
+##  More Information
+See the full analysis in the Jupyter Notebookat https://github.com/audi0786/Max_Daily_Energy_Predictions_Project
 
+For additional info, please contact Udhai P Singh at singhudhai16@gmail.com
 
 
 
