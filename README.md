@@ -72,7 +72,7 @@ After running our linear regression model with only 10 highest f_score features,
 
 ***
 ***
-![keytakeaways.jpg](attachment:keytakeaways.jpg)
+![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/keytakeaways.jpg)
 
 
 # Key Takeaways: 
