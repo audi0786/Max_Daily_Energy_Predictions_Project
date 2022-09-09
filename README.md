@@ -53,7 +53,59 @@ The main steps in my analysis of this projects are:
 ![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/five_iterations.jpg)
 
 
-3. In order to arrive at our final model, i have used an iterative approach. Start from a basemodel with just three features, which were mostly strongly correlated with our dependant variable. The base model performed well. 
+3. In order to arrive at our final model, i have used an iterative approach. Start from a basemodel with just three features, which were mostly strongly correlated with our dependant variable. We performed a linear regression and the base model performed well. 
+
+Note: We choose a stratified cross validation method so as to ensure that in a small dataset of 243 rows we are able to get enough entries 
+in each split which are representative of each class. If a simple split test is performed it can be misleading and can have high variance between different iterations of the model. Hence this appraoch in this case is more reliable. 
+
+4. Next iteration of the model: was introdcing all the features from our dataset in the model. Here we observe that the model metrics are actually worse off than even the base model. Hence we need to make changes in our model. 
+
+5. Log transformed and scaled model: Here we selectively performed log transformations as well as feature scaling. This model has shown improvements in both mse train and test set as well as r2 values for both train and test set at the same level. 
+
+Note: It is important to keep in mind that whenever we talk about any model metrics; they are average of five splits. as we applied stratified KFold with n_splits = 5. 
+
+6. Next iteration: Feature Selection using f_regression: Here we found out the best features for our model based on the f_regression score.
+Even the f_regression was performed on three splits to ensure the consistency in the f_scores of the features. 
+After running our linear regression model with only 10 highest f_score features, our model improved significantly. The model score increased from -0.1 to 0.05 and all r2 scores and mse scores improved. 
+
+7. Iteration: Polynomial and interaction features: In our next iteration of the model, we choose three out of the ten features to create more polynomial and interaction features. Our model improved significantly. Its model score increased from 0.05 to 0.22. This is the best model score we have till now. We have r2_test score of 0.47 and with this score going as high as 0.75 in one of the train-test splits. 
+
+***
+***
+![keytakeaways.jpg](attachment:keytakeaways.jpg)
+
+
+# Key Takeaways: 
+
+## 1. As expected, the hour of the day matters even on a eight month span. Electricity consumption is maximum at 6pm in the evening. Whereas the mean hourly electricity consumption dips to a minimum at 3 am. So this should inform at what time most generators come on and off the grid. This should inform the hourly forecast of the retail distributors. 
+
+
+
+
+
+
+## 2. Lineplot demonstrates weekdays consume more Max energy than weekends for all months except January. This is due to abnormally huge demand on 11.01.2021 and 25.01.2021.  While the spike on 25.01.21 is explainable as it is part of the long weekend ago and maybe associate with Australia day celebrations. On the other hand, the spike on 11.04.22 seems like an abberation. Hence, our stakeholders needs to be prepared for these anamolies. 
+
+
+### Another anamoly in data is that weekend mean-max consumption dips in February whereas for weekdays it dips in March
+
+### The second change of trend for both weekend(0,6) and weekdays(0-4) is simultaneously in August where it breaks the increasing trend. 
+
+
+
+## 3. For our stakeholders - July seems to be a critical period at the max consumption for both weekdays and weekends peaks together, hence the max capacity and the base load for July will increase substantially as compared to other months
+
+
+
+
+
+
+
+
+## 4. Our final model with scaled, polynomials and interaction features is performing well and is able to explain 0.47 of variations in unseen/test data. 
+
+
+
 
 
 
