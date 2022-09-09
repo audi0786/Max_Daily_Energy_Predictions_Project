@@ -8,7 +8,6 @@ Author - Udhai P Singh
 
 
 
-
 ## Project Overview
 
 This project analyzes the electricity consumption of Melbourne from 01.01.2021 to 31.08.2021. It is often observed that electricity consumption has strong relation with weather, especially temperature and time of the year/season. We will analyze the relationship of electricity consumption in Melbourne based on various weather features like temperature, wind, month and so on. The goal here is to predict the electricity consumption of the city based on weather forecast. 
@@ -46,10 +45,17 @@ The main steps in my analysis of this projects are:
 
 2. Exploratory Data Analysis: 
 
-2. Feature engineering: This step involved changing data types for some of the features as well as creating new features which would aid our prediction model. Some of the feature engineering was performed while carrying our different iterations of the model, as explained in the next step.
+2. Feature engineering: This step involved changing data types for some of the features as well as relying on extensive visualizations for creating new features which would aid our prediction model. Some of the feature engineering was performed while carrying our different iterations of the model, as explained in the next step.
 
 ***
 ### Iterative approach
 
-3. In order to arrive at our final model, i have used an iterative approach. Start from a basemodel with just three features. 
+![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/five_iterations.jpg)
+
+
+3. In order to arrive at our final model, i have used an iterative approach. Start from a basemodel with just three features, which were mostly strongly correlated with our dependant variable. The base model performed well. 
+
+
+
+
 
