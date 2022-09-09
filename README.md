@@ -114,5 +114,14 @@ For additional info, please contact Udhai P Singh at singhudhai16@gmail.com
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+## Repository Structure
+
+.
+├── .ipynb_checkpoints      # checkpoints (alternatively `dist`)
+├── images                  # Images used in notebook and README (alternatively `doc`)
+├── data                    # Source data (alternatively `lib` or `app`)
+├── Daily_Energy_Demand_Prediction_via_Regression_Analysis.ipynb   #Jupyter notebook containing the analysis      
+├── Notebook.pdf            # PDF copy of the notebook
+├── README.md
 
 
