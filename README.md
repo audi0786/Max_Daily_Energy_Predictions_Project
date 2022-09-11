@@ -97,7 +97,10 @@ After running our linear regression model with only 10 highest f_score features,
 ## 3. For our stakeholders - July seems to be a critical period at the max consumption for both weekdays and weekends peaks together, hence the max capacity and the base load for July will increase substantially as compared to other months
 
 
-![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/dayvsmonth2.png)
+![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/seven_iterations.jpg)
+
+
+
 
 
 
