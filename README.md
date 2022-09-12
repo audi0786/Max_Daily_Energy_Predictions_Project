@@ -88,9 +88,7 @@ After running our linear regression model with only 10 highest f_score features,
 ![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/day_Vs_month_relationship.png)
 
 
-### Another anamoly in data is that weekend mean-max consumption dips in February whereas for weekdays it dips in March
-
-### The second change of trend for both weekend(0,6) and weekdays(0-4) is simultaneously in August where it breaks the increasing trend. 
+### Another anamoly in data is that weekend max consumption dips in February whereas for weekdays it dips in March. This indicates consumers on a aggregate are behaving differently over teh weekeneds either in January or February. Our stakeholders should definitely inspect this further and this abberations can increase or decrease in 2022!!
 
 
 
@@ -104,7 +102,7 @@ After running our linear regression model with only 10 highest f_score features,
 
 
 
-## 4. Our final model with scaled, polynomials and interaction features is performing well and is able to explain 0.47 of variations in unseen/test data. 
+## 4. Three features - month, maximum temperature, and minimum temperature holds a special significance and have high utility for predicting the max daily demand. So for our stakeholder's prespective this should be given high priority and due consideration. 
 
 
 ##  More Information
