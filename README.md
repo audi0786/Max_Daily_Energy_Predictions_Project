@@ -50,7 +50,7 @@ The main steps in my analysis of this projects are:
 ***
 ### Iterative approach
 
-![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/five_iterations.jpg)
+![awesome](https://github.com/audi0786/Max_Daily_Energy_Predictions_Project/blob/main/Images/seven_iterations.jpg)
 
 
 3. In order to arrive at our final model, i have used an iterative approach. Start from a basemodel with just three features, which were mostly strongly correlated with our dependant variable. We performed a linear regression and the base model performed well. 
@@ -68,7 +68,9 @@ Note: It is important to keep in mind that whenever we talk about any model metr
 Even the f_regression was performed on three splits to ensure the consistency in the f_scores of the features. 
 After running our linear regression model with only 10 highest f_score features, our model improved significantly. The model score increased from -0.1 to 0.05 and all r2 scores and mse scores improved. 
 
-7. Iteration: Polynomial and interaction features: In our next iteration of the model, we choose three out of the ten features to create more polynomial and interaction features. Our model improved significantly. Its model score increased from 0.05 to 0.22. This is the best model score we have till now. We have r2_test score of 0.47 and with this score going as high as 0.75 in one of the train-test splits. 
+7. Iteration: Polynomial and interaction features: In our next iteration of the model, we choose three out of the ten features to create more polynomial and interaction features. Our model improved significantly. Its model score increased from -0.46 to 0.21. This is the best model score we have till now. We have r2_test score of 0.21 and with this score going as high as 0.57 in one of the train-test splits. 
+
+8. L1 Regularization: In order to increase our model performance, we have used the Lasso/L1 regularization. As expected we lost some traction from r2_train score to again substantial improvement in our r2_test data. Hence, now our model is finally giving some useful results on unseen/ new data. This results is further confirmed my L2 regularization, which yeilds even (marginally) better results. 
 
 ***
 ***
